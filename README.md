@@ -7,3 +7,5 @@ The finetuned feature extractor weights can be downloaded from:
 * Show and Tell: https://drive.google.com/open?id=1q3xJnp7HmFQWcquIvss1oUJJzawg73pY
 
 * Show Attend and Tell: https://drive.google.com/open?id=1QmIze742K4aWTOuzhRF4nbiw5lHgN8TY
+
+Extract the two files in their respective folders
