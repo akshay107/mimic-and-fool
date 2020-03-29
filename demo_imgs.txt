@@ -1,0 +1,5 @@
+../../imgs/COCO_val2014_000000145318.jpg
+../../imgs/COCO_val2014_000000293324.jpg
+../../imgs/COCO_val2014_000000487391.jpg
+../../imgs/COCO_val2014_000000462342.jpg
+../../imgs/COCO_val2014_000000211527.jpg
