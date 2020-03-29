@@ -4,6 +4,6 @@ This repository contains code for the paper:
 
 The finetuned feature extractor weights can be downloaded from:
 
-* Show and Tell: https://drive.google.com/drive/u/1/folders/18jK6aroNcmXMzB-J9Sg3LonYExd_FFWg
+* Show and Tell: https://drive.google.com/open?id=1q3xJnp7HmFQWcquIvss1oUJJzawg73pY
 
-* Show Attend and Tell: https://drive.google.com/drive/u/1/folders/1HKrnGnwwOtWFNlpIC0-0LKD-RtZ7Py1L
+* Show Attend and Tell: https://drive.google.com/open?id=1QmIze742K4aWTOuzhRF4nbiw5lHgN8TY
