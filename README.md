@@ -10,4 +10,4 @@ The finetuned feature extractor weights can be downloaded from:
 
 Extract the two files in their respective folders.
 
-Under any setting, run prepare_target.py followed by main.py. The advversarial files will be saved in adv_imgs/ folder.
+Under any setting, run prepare_target.py followed by main.py. The adversarial files will be saved in adv_imgs/ folder.
