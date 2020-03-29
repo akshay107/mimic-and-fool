@@ -8,4 +8,6 @@ The finetuned feature extractor weights can be downloaded from:
 
 * Show Attend and Tell: https://drive.google.com/open?id=1QmIze742K4aWTOuzhRF4nbiw5lHgN8TY
 
-Extract the two files in their respective folders
+Extract the two files in their respective folders.
+
+Under any setting, run prepare_target.py followed by main.py. The advversarial files will be saved in adv_imgs/ folder.
