@@ -94,8 +94,6 @@ for i in range(len(lines)):
         symbolic_weights = getattr(new_model.optimizer, 'weights')
         weight_values = K.batch_get_value(symbolic_weights)
         fname = lines[i].split('\n')[0].split('/')[-1].replace('jpg','npy')
-        targets = np.load("/home/cvpr/akshay/resnet_res5c/"+fname) 
-	new_model.load_weights('init_weights.h5')
 	new_model.fit(X_train, targets[i:i+1], batch_size=1, epochs=500, verbose=1)
 	adv_img = adv_img_model.predict(X_train)
 	img = adv_img + mean
