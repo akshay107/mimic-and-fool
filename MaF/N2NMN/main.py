@@ -71,7 +71,7 @@ new_model.compile(loss='mse', optimizer = adam)
 adv_img_model = Model(inputs = new_model.input, outputs = new_model.layers[-2].output)
 
 targets = np.load("final_targets.npy")
-lines = open("../demo_imgs.txt","r").readlines()
+lines = open("../../demo_imgs.txt","r").readlines()
 
 X_train = np.zeros((1,448,448,3))
 
