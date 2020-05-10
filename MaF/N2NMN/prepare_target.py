@@ -25,4 +25,5 @@ for i in range(len(lines)):
         target.append(pred)
 
 target = np.array(target)
+target = target.squeeze()
 np.save("final_targets.npy",target)
