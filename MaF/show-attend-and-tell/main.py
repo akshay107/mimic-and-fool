@@ -82,7 +82,7 @@ X_train = np.zeros((1,224,224,3))
 if not os.path.exists("adv_imgs"):
         os.makedirs("adv_imgs")
 
-for i in range(1000):
+for i in range(len(lines)):
 	print(i)
         K.set_value(new_model.optimizer.iterations,0)
         symbolic_weights = getattr(new_model.optimizer, 'weights')
