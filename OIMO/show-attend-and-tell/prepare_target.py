@@ -32,4 +32,5 @@ for i in range(len(lines)):
 	feat.append(pred)
 
 feat_np = np.array(feat)
+feat_np = feat_np.squeeze()
 np.save("final_targets.npy",feat_np)
