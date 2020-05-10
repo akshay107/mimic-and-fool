@@ -15,7 +15,7 @@ lines = open("../../demo_imgs.txt","r").readlines()
 
 target = []
 
-for i in range(len(imgs)):
+for i in range(len(lines)):
         imgpath = lines[i].split("\n")[0]
 	img = image.load_img(imgpath, target_size=(448, 448))
 	x = image.img_to_array(img)
